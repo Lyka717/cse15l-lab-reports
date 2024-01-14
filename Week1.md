@@ -1,4 +1,5 @@
 Week-1-Lab-Report
 =========
-By: Angelica Cabusi (A17948600)
-/n CSE 15L Joseph Politz
+By: Angelica Cabusi (A17948600)\
+CSE15L Joseph Politz
+-----
