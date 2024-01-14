@@ -39,10 +39,10 @@ __directory argument:__\
 ![Image](5.png)
 
 - Working directory when the command was run: **lecture1**\
-Within the _messages_ directory (within the lecture1 directory), there are multiple text files. So when command is followed by an directory argument, then the printed list will be all the files and directories within
-the given directory.
+Within the _messages_ directory (within the lecture1 directory), there are multiple text files. So when the ls command is followed by a directory argument, then the printed list will be all the files and directories directly withinthe given directory.
 
 __file argument:__\
 ![Image](6.png)
 
 - Working directory when the command was run: **lecture1/messages**\
+When a file argument follows the ls command, then the only thing available that the list(ls) command will print out is the file itself since no other file can be underneath or contained within the text file.
