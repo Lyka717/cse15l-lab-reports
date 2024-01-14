@@ -2,6 +2,8 @@ Week-1-Lab-Report\
 By: Angelica Cabusi (A17948600)\
 CSE15L Joseph Politz
 =========
+---
+
 ## `cd Commands`
 __no arguments:__\
 ![Image](1.png)
@@ -24,4 +26,6 @@ __File argument:__\
 ![Image](3.png)
 
 - Working directory when the command was run: **lecture1/messages**\
-  
+In the filesystem, cy.txt is a text file within the messages directory, which is why the current directory to do this cd command with a file argument is changed to the messages directory(within the lecture1 directory) to avoid any confusion. But be it inside or outside the directory, the command will be bashed either way because the command to change directories(cd) cannot change to files such as the cy.txt text file.
+
+## `ls Commands`
