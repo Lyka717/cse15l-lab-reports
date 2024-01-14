@@ -29,3 +29,20 @@ In the filesystem, cy.txt is a text file within the messages directory, which is
 
 ## `ls Commands`
 __no arguments:__\
+![Image](4.png)
+
+- Working directory when the command was run: **lecture1**\
+In the current directory, _lecture1_, there contains a _messages_ directory with text files within it, a _Hello.class_ file, a _Hello,java_, and _README_ file. When the ls command runs without an argument, then the output is a printed
+list of anything directly within the lecture1 file which is the previously states directory and files but not the text files within the _messages_ directory.
+
+__directory argument:__\
+![Image](5.png)
+
+- Working directory when the command was run: **lecture1**\
+Within the _messages_ directory (within the lecture1 directory), there are multiple text files. So when command is followed by an directory argument, then the printed list will be all the files and directories within
+the given directory.
+
+__file argument:__\
+![Image](6.png)
+
+- Working directory when the command was run: **lecture1/messages**\
