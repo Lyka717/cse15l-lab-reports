@@ -28,7 +28,7 @@ __File Argument:__\
 
 - Working directory when the command was run: **lecture1/messages**
 - Output: Error
-  - (Why: cy.txt is a text file not a directory and the change directory(cd) command can work if the argument is a directory.)\
+  - (Why: cy.txt is a text file, not a directory, and the change directory(cd) command can work if the argument is a directory.)\
 
 In the filesystem, cy.txt is a text file within the messages directory, which is why the current directory to do this cd command with a file argument is changed to the messages directory(within the lecture1 directory) to avoid any confusion. But be it inside or outside the directory, the command will be bashed either way because the command to change directories(cd) cannot change to files such as the cy.txt text file.
 
@@ -38,15 +38,14 @@ __No Arguments:__\
 
 - Working directory when the command was run: **lecture1**
 - Output: Not an error\
-In the current directory, _lecture1_, there contains a _messages_ directory with text files within it, a _Hello.class_ file, a _Hello,java_, and _README_ file. When the ls command runs without an argument, then the output is a printed
-list of anything directly within the lecture1 file which is the previously states directory and files but not the text files within the _messages_ directory.
+In the current directory, _lecture1_, there contains a _messages_ directory with text files within it, a _Hello.class_ file, a _Hello,java_, and _README_ file. When the ls command runs without an argument, then the output is a printed list of anything directly within the lecture1 file which is the previously stated directory and files but not the text files within the _messages_ directory.
 
 __Directory Argument:__\
 ![Image](5.png)
 
 - Working directory when the command was run: **lecture1**
 - Output: Not an error\
-Within the _messages_ directory (within the lecture1 directory), there are multiple text files. So when the ls command is followed by a directory argument, then the printed list will be all the files and directories directly withinthe given directory.
+Within the _messages_ directory (within the lecture1 directory), there are multiple text files. So when a directory argument follows the ls command, the printed list will be all the files and directories directly within the given directory.
 
 __File Argument:__\
 ![Image](6.png)
@@ -58,3 +57,21 @@ When a file argument follows the ls command, then the only thing available that 
 ## `cat Commands`
 __No Arguments:__\
 ![Image](7.png)
+
+- Working directory when the command was run: **~**
+- Output: Not an error\
+The cat command means to concatenate and print the contents within the given files that are within the current working directory. However, since there is no file argument following the cat command for the command to print, the output will be printed characters the user enters into the terminal.
+
+__Directory Arguments:__\
+![Image](8.png)
+
+- Working directory when the command was run: **~**
+- Output: Not an error\
+In the filesystem, lecture1 is the only thing and only directory directly 'below' the ~ directory. The cat command performs properly if the following argument/path is a file and not a directory, the output printed statement clarifies that the following path is a directory.
+
+__File Argument:__\
+![Image](9.png)
+
+- Working directory when the command was run: **lecture1/messages**
+- Output: Not an error\
+Currently, text files(e.g. en-us.txt) are contained within the messages directory. 
