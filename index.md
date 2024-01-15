@@ -24,7 +24,7 @@ List:
 
 Horizontal rule/line:
 ---
-Inline code: `Inline code`\
+Inline code: `Inline code`
 
 Code block:
 ```code block```
