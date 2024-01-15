@@ -28,3 +28,4 @@ Inline code: `Inline code`
 
 Code block:
 ```code block```
+Link to Week1 lab report: [Week1 Lab Report](https://lyka717.github.io/cse15l-lab-reports/Week1)
