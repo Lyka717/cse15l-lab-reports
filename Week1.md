@@ -74,4 +74,4 @@ __File Argument:__\
 
 - Working directory when the command was run: **lecture1/messages**
 - Output: Not an error\
-Currently, text files(e.g. en-us.txt) are contained within the messages directory. 
+Currently, text files(e.g. en-us.txt) are contained within the messages directory and the text files contain the text "Hello World!" in their respective languages. When the cat command is followed by one or more files, then the output results in printing out all the contents within the given file or files.
