@@ -1,12 +1,12 @@
 # Week-1-Lab-Report
 By: Angelica Cabusi (A17948600)\
 CSE15L Joseph Politz
----
+
 
 ## `cd Commands`
 __No Arguments:__\
 ![Image](1.png)
-sdfsdfsdfsdf
+
 - Working directory when the command was run: **lecture1**
 - Output: Not an error\
 The files system contains two directories, named _lecture1_ followed _messages_ (the messages directory is within the lecture1 directory), and within the messages directory there are multiple text files.
