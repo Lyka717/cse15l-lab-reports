@@ -79,8 +79,8 @@ __/add-message Commands:__ \
     8) ```
        .substring()
        ```
-       a)The relevant argument for this method is (0, ```endIndex1```). Which initializes the ```afterS``` string variable (```afterS```) with ```"How+are+you"```.
-    9) Once, the if conditional is passed, the ```User``` string variable will be initialized to ```"yash"```.
+       a)The relevant argument for this method is (0, ```endIndex1```). Which changes the ```afterS``` string variable  to ```"How+are+you"```.
+    9) Once, the if conditional is passed, the ```User``` string variable will change to ```"yash"```.
     10) ```chatHistory``` will now contain the string value ```""jpolitz: Hello" +"\n" + "yash: How+are+you"  +"\n""```.
        
 - Changes in fields' values:
