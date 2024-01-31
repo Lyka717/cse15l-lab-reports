@@ -93,4 +93,11 @@ __/add-message Commands:__ \
 
 ***
 ## `Part 2`
-a
+__private SSH key:__\
+__public SSH key:__\
+__terminal interaction:__\
+
+***
+## `Part 3`
+__Reflection:__\
+    Some things that I learned from the labs was how URl paths work and that there are imported methods that can be used specifically for URls, such as ```.getQuery``` and ```.getPath()```. From that, I found the reason the "?" symbol is emebed  in some URLs. Most importantly, I found out the "/" symbol in URLs in general even mean, which is the path or gives the computer the directions for the server's navigation towards a specific file.
