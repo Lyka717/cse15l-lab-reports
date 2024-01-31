@@ -12,9 +12,10 @@ __/add-message Commands:__ \
 ![Image](L2_1.png)
 - Called methods:\
     1) ```
-       Integer.parseInt(); NOOT THIS
+       .getPath()
        ```
-        a) 
+        a) This method does not take any parameters and is called upon a URI type variable, therefore, there are no relevant arguments. Chat history has been initialized.
+    2) 
 - Change
 
 ![Image](L2_2.png)
