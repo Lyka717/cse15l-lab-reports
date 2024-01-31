@@ -96,6 +96,7 @@ __/add-message Commands:__ \
 __private SSH key:__\
 __public SSH key:__\
 __terminal interaction:__\
+![Image](L2_5.png)
 
 ***
 ## `Part 3`
