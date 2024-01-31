@@ -31,7 +31,7 @@ __/add-message Commands:__ \
     6) ```
        .equals()
        ```
-       a)The relevant argument for this method "s". This checks the called upon string(```parameters[0]```) if it is "s", and will pass if true.
+       a)The relevant argument for this method "s". This checks the called upon string(```parameters[0]```) if it is "s", and will pass if true. 
      6)```
        .indexOf()```
        a)The relevant argument for this method "&" since the string between s= and user= is "&". This changes the int variable, ```endIndex1```, to 5 since the method is called upon ```parameters[1]``` which is "Hello&user=".
@@ -39,6 +39,8 @@ __/add-message Commands:__ \
        .substring()
        ```
        a)The relevant argument for this method is (0, ```endIndex1```). Which initializes the ```afterS``` string variable with "Hello".
+    8) Once, the if conditional is passed, the ```User``` string variable will be initialized to "jpolitz".
+    9) ```chatHistory``` will now contain the string value "jpolitz: Hello".
        
 - Change
 
