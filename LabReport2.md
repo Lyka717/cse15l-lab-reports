@@ -10,7 +10,11 @@ __ChatServer Code:__\
 
 __/add-message Commands:__ \
 ![Image](L2_1.png)
-- The called methods are:
+- Called methods:\
+    1) ```
+       Integer.parseInt();
+       ```
+       
 - Relevent arguments asdasd
 - Change
 
