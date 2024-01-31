@@ -14,8 +14,8 @@ __/add-message Commands:__ \
     1) ```
        .getPath()
        ```
-        a) This method does not take any parameters and is called upon a URI type variable (```url```), therefore, there are no relevant arguments. The ```url``` variable contains the string ```"/add-message?s=Hello&user=jpolitz"```. The```chatHistory``` string variable was initial ized during the server's creation.
-    2) ```
+        a) This method does not take any parameters and is called upon a URI type variable (```url```), therefore, there are no relevant arguments. The ```url``` variable contains the string ```"/add-message?s=Hello&user=jpolitz"```. The```chatHistory``` string variable was initialized during the server's creation.
+    3) ```
        .contains()
        ```
        a) The relevant argument is ```"/add-message"```. If the path from ```.getpath``` contains the argument, then the conditional statement will pass.\
