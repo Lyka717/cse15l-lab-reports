@@ -14,20 +14,21 @@ __/add-message Commands:__ \
     1) ```
        .getPath()
        ```
-        a) This method does not take any parameters and is called upon a URI type variable (url), therefore, there are no relevant arguments. Chat history was initialized during the server's creation.
+        a) This method does not take any parameters and is called upon a URI type variable (url), therefore, there are no relevant arguments. The ```url``` variable contains the string "/add-message?s=Hello&user=jpolitz". The```chatHistory``` string variable was initial ized during the server's creation.
     2) ```
        .contains()
        ```
        a) The relevant argument is "/add-message". If the path from ```.getpath``` contains the argument, then the conditional statement will pass.
-    3) ```
+       b) The method is called again later upon ```parameters[1]``` with the relevant parameter: "&user". If this is true, the 'if' conditional will pass.
+    4) ```
        .getQuery()
        ```
        a) This method does not take any parameters and is called upon a URI type variable. This returns a string that will later be stored in the ```parameters``` string array variable after executing the following ```.split()``` method.
-    4) ```
+    5) ```
        .split()
        ```
        a) The relevant argument for ```.split()``` parameters is "=". This will split the called upon string into different strings separated by the "=" string. Therefore, the ```parameters``` variable will now have the array ```{"s", "Hello&user", "jpolitz"}```.
-    5) ```
+    6) ```
        .equals()
        ```
        a)The relevant argument for this method "s". This checks the called upon string(```parameters[0]```) if it is "s", and will pass if true.
@@ -38,6 +39,7 @@ __/add-message Commands:__ \
        .substring()
        ```
        a)The relevant argument for this method is (0, ```endIndex1```). Which initializes the ```afterS``` string variable with "Hello".
+       
 - Change
 
 ![Image](L2_2.png)
