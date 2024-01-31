@@ -38,11 +38,16 @@ __/add-message Commands:__ \
     7) ```
        .substring()
        ```
-       a)The relevant argument for this method is (0, ```endIndex1```). Which initializes the ```afterS``` string variable with "Hello".
+       a)The relevant argument for this method is (0, ```endIndex1```). Which initializes the ```afterS``` string variable (```afterS```) with "Hello".
     8) Once, the if conditional is passed, the ```User``` string variable will be initialized to "jpolitz".
     9) ```chatHistory``` will now contain the string value "jpolitz: Hello".
        
-- Change
+- Changes in fields' values:
+    1) ```String[] parameters```: will contain the string values ```{"s", "Hello&user", "jpolitz"}```.
+    3) ```int endIndex1```: will contain the int value ```5``` due to the .indexOf("&") method.
+    4) ```String afterS```: will contain the string "Hello" due to the .substring(0, ```endIndex1```) method call.
+    5) ```String User```: will contain the string ```"jpolitz"``` due to ```parameter[2]``` being assigned to it.
+    6) ```String chatHistory```: will now contain the string ```"jpolitz: Hello"```.
 
 ![Image](L2_2.png)
 - The called methods are:
