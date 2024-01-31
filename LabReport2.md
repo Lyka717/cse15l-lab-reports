@@ -89,3 +89,8 @@ __/add-message Commands:__ \
     4) ```String afterS```: will contain the string "How+are+you&user" due to the .substring(0, ```endIndex1```) method call.
     5) ```String User```: will contain the string ```"yash"``` due to ```parameter[2]``` being assigned to it.
     6) ```String chatHistory```: will now contain the string ```""jpolitz: Hello" +"\n" + "yash: How+are+you"  +"\n""```.
+    7) 
+
+***
+## `Part 2`
+a
