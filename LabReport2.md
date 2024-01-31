@@ -12,10 +12,9 @@ __/add-message Commands:__ \
 ![Image](L2_1.png)
 - Called methods:\
     1) ```
-       Integer.parseInt();
+       Integer.parseInt(); NOOT THIS
        ```
-       
-- Relevent arguments asdasd
+        a) 
 - Change
 
 ![Image](L2_2.png)
