@@ -19,7 +19,7 @@ __/add-message Commands:__ \
        .contains()
        ```
        a) The relevant argument is "/add-message". If the path from ```.getpath``` contains the argument, then the conditional statement will pass.\
-       b) The method is called again later upon ```parameters[1]``` with the relevant parameter: "&user". If this is true, the 'if' conditional will pass.
+       b) The method is called again later upon ```parameters[1]``` with the relevant parameter: ```"&user"```. If this is true, the 'if' conditional will pass.
     4) ```
        .getQuery()
        ```
@@ -27,14 +27,14 @@ __/add-message Commands:__ \
     5) ```
        .split()
        ```
-       a) The relevant argument for ```.split()``` parameters is "=". This will split the called upon string into different strings separated by the "=" string. Therefore, the ```parameters``` variable will now have the array ```{"s", "Hello&user", "jpolitz"}```.
+       a) The relevant argument for ```.split()``` parameters is ``"="``. This will split the called upon string into different strings separated by the "=" string. Therefore, the ```parameters``` variable will now have the array ```{"s", "Hello&user", "jpolitz"}```.
     6) ```
        .equals()
        ```
-       a)The relevant argument for this method "s". This checks the called upon string(```parameters[0]```) if it is "s", and will pass if true. 
+       a)The relevant argument for this method is ``"s"``. This checks the called upon string(```parameters[0]```) if it is "s", and will pass if true. 
      6)```
        .indexOf()```
-       a)The relevant argument for this method "&" since the string between s= and user= is "&". This changes the int variable, ```endIndex1```, to 5 since the method is called upon ```parameters[1]``` which is ```"Hello&user"```.
+       a)The relevant argument for this method "&" since the string between s= and user= is ``"&"``. This changes the int variable, ```endIndex1```, to 5 since the method is called upon ```parameters[1]``` which is ```"Hello&user"```.
     7) ```
        .substring()
        ```
@@ -47,7 +47,7 @@ __/add-message Commands:__ \
     3) ```int endIndex1```: will contain the int value ```5``` due to the .indexOf("&") method.
     4) ```String afterS```: will contain the string "Hello" due to the .substring(0, ```endIndex1```) method call.
     5) ```String User```: will contain the string ```"jpolitz"``` due to ```parameter[2]``` being assigned to it.
-    6) ```String chatHistory```: will now contain the string ```"jpolitz: Hello"```.
+    6) ```String chatHistory```: will now contain the string ```""jpolitz: Hello"  +"\n""```.
 
   
 ![Image](L2_2.png)
@@ -73,19 +73,19 @@ __/add-message Commands:__ \
        .equals()
        ```
        a)The relevant argument for this method "s". This checks the called upon string(```parameters[0]```) if it is "s", and will pass if true. 
-     6)```
+     7)```
        .indexOf()```
        a)The relevant argument for this method "&" since the string between s= and user= is "&". This changes the int variable, ```endIndex1```, to ```11``` since the method is called upon ```parameters[1]``` which is ```"How+are+you&user"```.
-    7) ```
+    8) ```
        .substring()
        ```
        a)The relevant argument for this method is (0, ```endIndex1```). Which initializes the ```afterS``` string variable (```afterS```) with ```"How+are+you"```.
-    8) Once, the if conditional is passed, the ```User``` string variable will be initialized to ```"yash"```.
-    9) ```chatHistory``` will now contain the string value ```"yash: How+are+you"```.
+    9) Once, the if conditional is passed, the ```User``` string variable will be initialized to ```"yash"```.
+    10) ```chatHistory``` will now contain the string value ```""jpolitz: Hello" +"\n" + "yash: How+are+you"  +"\n""```.
        
 - Changes in fields' values:
     1) ```String[] parameters```: will contain the string values ```{"s", "How+are+you&user", "yash"}```.
     3) ```int endIndex1```: will contain the int value ```11``` due to the .indexOf("&") method.
     4) ```String afterS```: will contain the string "How+are+you&user" due to the .substring(0, ```endIndex1```) method call.
     5) ```String User```: will contain the string ```"yash"``` due to ```parameter[2]``` being assigned to it.
-    6) ```String chatHistory```: will now contain the string ```"yash: How+are+you"```.
+    6) ```String chatHistory```: will now contain the string ```""jpolitz: Hello" +"\n" + "yash: How+are+you"  +"\n""```.
