@@ -10,7 +10,7 @@ __ChatServer Code:__\
 
 __/add-message Commands:__ \
 ![Image](L2_1.png)
-- Called methods:
+- Called methods:\
     1) ```
        .getPath()
        ```
