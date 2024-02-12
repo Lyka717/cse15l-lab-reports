@@ -29,9 +29,6 @@ public void testReverseInPlace() {
 
 ![Image](L3_1.png)
 
-
-```
-
 * Buggy Code:
     1. Before:
     ```
