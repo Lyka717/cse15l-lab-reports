@@ -57,7 +57,10 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ---
 ## `Part 2 - Researching Commands`
 __Researching `find` Command:__\
-
+//-type
+//-empty
+// -name
+// -readable 
 
 
 
