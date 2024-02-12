@@ -56,4 +56,10 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 
 ---
 ## `Part 2 - Researching Commands`
-__Researching `find` command:__\
+__Researching `find` Command:__\
+
+
+
+
+## `Sources Used:`
+https://www.computerhope.com/unix/ufind.htm
