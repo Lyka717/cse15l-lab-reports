@@ -26,7 +26,7 @@ public void testReverseInPlace() {
 
 ```
 * Symptoms: 
-```
+
 ![Image](L3_1.png)
 
 
