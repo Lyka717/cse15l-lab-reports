@@ -9,8 +9,17 @@ __Testing ArrayExamples.java(buggy program): reverseInPlace() Method:__\
 ```
 @Test
 public void testReverseInPlace() {
-    int[] input2 = {5,1,2,4,8};
+    int[] input1 = {5,1,2,4,8};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{8,4,2,1,5}, input1);
+}
+```
+- Successful input: 
+```
+@Test
+public void testReverseInPlace() {
+    int[] input2 = {3,2,1,2,3;
     ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[]{8,4,2,1,5}, input2);
+    assertArrayEquals(new int[]{3,2,1,2,3}, input2);
 }
 ```
