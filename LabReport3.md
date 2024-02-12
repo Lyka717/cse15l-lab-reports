@@ -25,6 +25,18 @@ public void testReverseInPlace() {
 
 
 ```
+* Symptoms: 
+```
+@Test
+public void testReverseInPlace() {
+    int[] input2 = {3,2,1,2,3};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{3,2,1,2,3}, input2);
+}
+
+
+```
+
 * Buggy Code:
     1. Before:
     ```
