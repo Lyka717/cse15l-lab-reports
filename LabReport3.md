@@ -160,8 +160,47 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 
 
 
-// -readable 
+**`-size command:`**
+* Ex1) input:
+```
+ find -size +200k
+```
+* Ex1) output:
+```
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-3.txt
+./government/About_LSC/commission_report.txt
+./government/Env_Prot_Agen/bill.txt
+./government/Gen_Account_Office/d01591sp.txt
+./government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt      
+./government/Gen_Account_Office/pe1019.txt
+./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+```
 
+*Explanation:*\
+
+* Ex2) input:
+```
+ find -size -1M
+```
+* Ex2) output:
+```
+./911report
+./AccidentalEmpty.txt
+./biomed
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+./newDirectoryIMade
+./plos
+```
+
+*Explanation:*\
 
 
 ## `Sources Used:`
