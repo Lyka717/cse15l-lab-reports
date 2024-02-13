@@ -77,6 +77,9 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ./government/Post_Rate_Comm
 ./plos
 ```
+*Explanation:*\
+
+
 * Ex2) input:
 ```
  find -type f
@@ -100,8 +103,32 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ./plos/pmed.0020278.txt
 ./plos/pmed.0020281.txt
 ```
+*Explanation:*\
+
+
 
 **`-empty command:`**
+* Ex1) input:
+```
+ find -type d
+```
+* Ex1) output:
+```
+
+```
+
+*Explanation:*\
+
+* Ex2) input:
+```
+ find -type d
+```
+* Ex2) output:
+```
+
+```
+
+*Explanation:*\
 
 // -name
 // -readable 
