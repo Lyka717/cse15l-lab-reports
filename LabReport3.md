@@ -3,7 +3,7 @@ By Angelica Cabusi (A17948600)\
 CSE15L Joseph Politz\
 February 23, 2024
 ## `Part 1 - Bugs`
-__Testing ArrayExamples.java(buggy program): reverseInPlace() Method:__\
+__Testing ArrayExamples.java(buggy program): reverseInPlace() Method:__
 
 * Failure-inducing input:
 ```
@@ -26,7 +26,6 @@ public void testReverseInPlace() {
 * Symptoms: 
 
 ![Image](L3_1.png)
-\
 
 * Buggy Code:
     1. Before:
