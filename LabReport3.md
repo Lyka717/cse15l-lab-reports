@@ -78,7 +78,7 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ./plos
 ```
 *Explanation:*\
-
+The `find -type` outputs a list 
 
 * Ex2) input:
 ```
