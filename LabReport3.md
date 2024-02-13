@@ -4,8 +4,9 @@ CSE15L Joseph Politz\
 2/23/2024
 ## `Part 1 - Bugs`
 __Testing ArrayExamples.java(buggy program): reverseInPlace() Method:__\
-
-* Failure-inducing input: 
+\
+* Failure-inducing input:
+  \
 ```
 @Test
 public void testReverseInPlace() {
@@ -14,7 +15,8 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{8,4,2,1,5}, input1);
 }
 ```
-* Successful input: 
+* Successful input:
+\
 ```
 @Test
 public void testReverseInPlace() {
