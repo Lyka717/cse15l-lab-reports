@@ -144,6 +144,9 @@ The `find -type f` finds and outputs a list of all files, within the current wor
 
 *Explanation:*\
 
+
+
+
 * Ex2) input:
 ```
  find -newer plos
