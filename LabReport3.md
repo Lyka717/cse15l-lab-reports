@@ -18,7 +18,6 @@ public void testReverseInPlace() {
 ```
 * Successful input:
 \
-
 ```
 @Test
 public void testReverseInPlace() {
@@ -28,6 +27,7 @@ public void testReverseInPlace() {
 }
 ```
 \
+
 * Symptoms: 
 
 ![Image](L3_1.png)
