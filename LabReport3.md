@@ -81,9 +81,28 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ```
  find -type f
 ```
-* Ex2) output (Only showing the most recent trunk but essentially lists all files:
+* Ex2) output:
+    1.  (Following displays a truncated output but essentially lists all files within the directory)
+```
+./plos/pmed.0020238.txt
+./plos/pmed.0020239.txt
+./plos/pmed.0020242.txt
+./plos/pmed.0020246.txt
+./plos/pmed.0020247.txt
+./plos/pmed.0020249.txt
+./plos/pmed.0020257.txt
+./plos/pmed.0020258.txt
+./plos/pmed.0020268.txt
+./plos/pmed.0020272.txt
+./plos/pmed.0020273.txt
+./plos/pmed.0020274.txt
+./plos/pmed.0020275.txt
+./plos/pmed.0020278.txt
+./plos/pmed.0020281.txt
+```
 
-//-empty
+**`-empty command:`**
+
 // -name
 // -readable 
 
