@@ -53,11 +53,36 @@ public void testReverseInPlace() {
 The buggy code under "Before;" above reverses the array values perfectly for the first [few] values until a certain point (usually the middle value of the array). The issue is that once `i` reaches an index where the latter `(arr[arr.length - i - 1])` refers to an index whose value has already been changed, the call will refer to a reversed value rather than the intended value from the inputted array. Meaning that the first part of the array will be reversed while the later values of the array will have the same values as the now reversed value of the array, because the original inputted array value are not preserved.\
 By making a new array, in this case it is a `changedArray`, we can save and refer to the original values of the inputted array. Now, `changedArray` will be the same size as the original array but empty and then filled (one-by-one) with the reversed value of the original array. We do this by referring to the last value of the original `arr` array and assigning it to the beginning of the `changedArray` and then iterating through each index where `changedArray`'s index is moving forward and the index value of `arr` is moving backward. Finally, `changedArray` will replace the inputted `arr` array as intended.
 
-
 ---
-## `Part 2 - Researching Commands`
-__Researching `find` Command:__\
-//-type
+
+## **Part 2 - Researching Commands: Researching the `find` Command**
+*These are all working in the .technical/ directory.*
+
+**`-type command:`**
+
+* Ex1) input:
+```
+ find -type d
+```
+* Ex1) output:
+```
+./911report
+./biomed
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+./plos
+```
+* Ex2) input:
+```
+ find -type f
+```
+* Ex2) output (Only showing the most recent trunk but essentially lists all files:
+
 //-empty
 // -name
 // -readable 
