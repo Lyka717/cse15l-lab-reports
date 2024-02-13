@@ -56,7 +56,8 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ---
 
 ## **Part 2 - Researching Commands: Researching the `find` Command**
-*These are all working in the .technical/ directory.*
+> *These are all working in the .technical/ directory.*
+
 
 **`-type command:`**
 
@@ -110,27 +111,55 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 **`-empty command:`**
 * Ex1) input:
 ```
- find -type d
+ find -empty
 ```
 * Ex1) output:
 ```
-
+./AccidentalEmpty.txt
 ```
 
 *Explanation:*\
 
 * Ex2) input:
 ```
- find -type d
+ find -empty
 ```
 * Ex2) output:
 ```
-
+./AccidentalEmpty.txt
+./newDirectoryIMade
 ```
 
 *Explanation:*\
 
-// -name
+
+**`-newer command:`**
+* Ex1) input:
+```
+ find -newer AccidentalEmpty.txt
+```
+* Ex1) output:
+```
+./newDirectoryIMade
+```
+
+*Explanation:*\
+
+* Ex2) input:
+```
+ find -newer plos
+```
+* Ex2) output:
+```
+.
+./AccidentalEmpty.txt
+./newDirectoryIMade
+```
+
+*Explanation:*\
+
+
+
 // -readable 
 
 
