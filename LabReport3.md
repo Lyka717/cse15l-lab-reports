@@ -182,6 +182,7 @@ The `find -newer` command takes a *file* argument which compares the input file 
 ```
 
 *Explanation:*\
+The `find -size` command takes an argument `[-|+]n[cwbkMG]` where -/+ means less than or more than *n* (a number) and the last selection of characters represents the type of bytes. The example command's purpose is to locate and list all the files (within the working directory) that have more than (`+`) `200` Kilobytes (`k`). This program is really helpful for programmers to find any files that may be taking up too much space and/or causing slow responses to their programs.
 
 * Ex2) input:
 ```
@@ -204,7 +205,7 @@ The `find -newer` command takes a *file* argument which compares the input file 
 ```
 
 *Explanation:*\
-
+The `find -size` command takes an argument `[-|+]n[cwbkMG]` where -/+ means less than or more than *n* (a number) and the last selection of characters represents the type of bytes. The example command's purpose is to locate and list all the files (within the working directory) that have less than (`-`) `1` Megabytes (`M`). This program is helpful for programmers to find any files that may be taking up too much space, causing slow responses to their programs, or even finding potentially unnecessary files.
 
 ## `Sources Used:`
 [(https://www.computerhope.com/unix/ufind.htm)](https://www.computerhope.com/unix/ufind.htm)
