@@ -78,7 +78,7 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ./plos
 ```
 *Explanation:*\
-The `find -type d` finds and outputs a list of all files, within the current working directory, that are directories. This helps locate and count all directories within a directory.
+The `find -type d` finds and outputs a list of all files, within the current working directory, that are directories. This helps programmers locate and count all directories within a directory.
 
 * Ex2) input:
 ```
@@ -104,7 +104,7 @@ The `find -type d` finds and outputs a list of all files, within the current wor
 ./plos/pmed.0020281.txt
 ```
 *Explanation:*\
-The `find -type f` finds and outputs a list of all files, within the current working directory, that are just regular files. This can help us locate, count, and name all files in a directory.
+The `find -type f` finds and outputs a list of all files, within the current working directory, that are just regular files. This can help programmers locate, count, and name all files in a directory.
 
 
 **`-empty command:`**
