@@ -131,7 +131,7 @@ The `find -empty` command allows us to locate and list **all** files (within the
 ```
 
 *Explanation:*\
-The `find -empty` command allows us to locate and list **all** files (within the directory) that do not contain anything or any text. In this output, I created an empty directory named `newDirectoryIMade`beforehand. This command would help programmers find unused files to either use or delete to compress their code and take fewer bytes.
+The `find -empty` command allows us to locate and list **all** files (within the directory) that do not contain anything or any text. In this output, I created an empty directory named `newDirectoryIMade` beforehand. This command would help programmers find unused files to either use or delete to compress their code and take fewer bytes.
 
 
 **`-newer command:`**
@@ -145,8 +145,7 @@ The `find -empty` command allows us to locate and list **all** files (within the
 ```
 
 *Explanation:*\
-
-
+The `find -newer` command takes a *file* argument which compares the input file with other files in the current working directory and lists any file(s) that were modified more recently than the inputted file. And since I created an empty directory for the `find -empty` example, said directory is comparably the most recent file modified. This command aids programmers in knowing what file has been modified to track any coding errors or even just to find what file they or another person was still working on.
 
 
 * Ex2) input:
@@ -161,7 +160,7 @@ The `find -empty` command allows us to locate and list **all** files (within the
 ```
 
 *Explanation:*\
-
+The `find -newer` command takes a *file* argument which compares the input file with other files in the current working directory and lists any file(s) that were modified more recently. Since I created and renamed `AccidentalEmpty.txt` and `newDirectoryIMade` for the `find -empty` example, these files were comparably more recently modified than the `plos` directory. This command aids programmers in knowing what file has been modified to track any coding errors or even just to find what file they or another person was still working on.
 
 
 **`-size command:`**
