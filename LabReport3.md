@@ -81,7 +81,6 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 *Explanation:*\
 The `find -type d` finds and outputs a list of all files, within the current working directory, that are directories. This helps programmers locate and count all directories within a directory.
 
-
 * Ex2) input:
 ```
  find -type f
@@ -105,9 +104,9 @@ The `find -type d` finds and outputs a list of all files, within the current wor
 ./plos/pmed.0020278.txt
 ./plos/pmed.0020281.txt
 ```
+
 *Explanation:*\
 The `find -type f` finds and outputs a list of all files, within the current working directory, that are just regular files. This can help programmers locate, count, and name all files in a directory.
-
 
 **`-empty command:`**
 * Ex1) input:
