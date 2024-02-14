@@ -118,6 +118,7 @@ The `find -type f` finds and outputs a list of all files, within the current wor
 ```
 
 *Explanation:*\
+The `find -empty` command allows us to locate and list **all** files (within the directory) that do not contain anything. In this output, I originally made a text file that was supposed to be assigned during a lab but created it in the wrong directory and thus named it `AccidentalEmpty.txt`. This command would help programmers find unused files to either use or delete to compress their code and take fewer bytes.
 
 * Ex2) input:
 ```
@@ -130,6 +131,7 @@ The `find -type f` finds and outputs a list of all files, within the current wor
 ```
 
 *Explanation:*\
+The `find -empty` command allows us to locate and list **all** files (within the directory) that do not contain anything or any text. In this output, I created an empty directory named `newDirectoryIMade`beforehand. This command would help programmers find unused files to either use or delete to compress their code and take fewer bytes.
 
 
 **`-newer command:`**
