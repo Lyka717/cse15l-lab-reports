@@ -77,8 +77,10 @@ By making a new array, in this case it is a `changedArray`, we can save and refe
 ./government/Post_Rate_Comm
 ./plos
 ```
+
 *Explanation:*\
 The `find -type d` finds and outputs a list of all files, within the current working directory, that are directories. This helps programmers locate and count all directories within a directory.
+
 
 * Ex2) input:
 ```
