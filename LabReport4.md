@@ -18,14 +18,16 @@ Keys Pressed: `c` `d` `<space>` `l` `a` `b` `7` `<enter> ` `b` `a` `s` `h` `<spa
 ## `Step 7)`
 ![Image](L4_4.png)
 Keys Pressed: `v` `i` `m` `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a` `<enter>`  `4` `4` `g` `g` `e` `r` `2` `<esc>` `:` `w` `q` `<enter>`
-7) vim ListExamples.java > 44gg > e > r2 > <esc> > :wq > <enter>
+  - asd
 
 ## `Step 8)`
 ![Image](L4_5.png)
-Keys Pressed: `<up><enter>`
-8) ^ ^ [twice]
-
+Keys Pressed: `<up>` `<up>` 
+  - asd
 ## `Step 9)`
 ![Image](L4_6.png)
-Keys Pressed: `<up><enter>`
+Keys Pressed: 
+* `g` `i` `t` `<space>` `a` `d` `d` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a`  `v` `a` `<enter>`
+* `g` `i` `t` `<space>` `c` `o` `m` `m` `i` `t` `<space>` `-` `m` `<space>` `"` `L` `i` `s` `t` `<space>` `C` `O` `M` `M`  `I` `T` `E` `D` `<enter>`
+* `g` `i` `t` `<space>` `p` `u` `s` `h` `<space>` `o` `r` `i` `g` `i` `n` `<space>` `m` `a` `i` `n` `<enter>` 
 9) git add ListExamples.java ><enter> > git commit -m "List COMMITTED" > <enter> > git push origin main > <enter>
