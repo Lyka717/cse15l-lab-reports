@@ -17,7 +17,7 @@ Keys Pressed: `c` `d` `<space>` `l` `a` `b` `7` `<enter> ` `b` `a` `s` `h` `<spa
   - 
 ## `Step 7)`
 ![Image](L4_4.png)
-Keys Pressed: `<up><enter>`
+Keys Pressed: `v` `i` `m` `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a` `<enter>`  `4` `4` `g` `g` `e` `r` `2` `<esc>` `:` `w` `q` `<enter>`
 7) vim ListExamples.java > 44gg > e > r2 > <esc> > :wq > <enter>
 
 ## `Step 8)`
