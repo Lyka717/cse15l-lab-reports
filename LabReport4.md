@@ -9,7 +9,7 @@ Keys Pressed: `<up><enter>`
 ## `Step 5)`
 ![Image](L4_2.png)
 Keys Pressed: (After going to github and copying the lab7 repository with ssh URL to my clipboard and went back to VSCode) `g` `i` `t` `<space>` `c` `l` `o` `n` `e` `<space>` `Crtl+P``<enter>`
-  - asda
+  - After copying the forked repository's URL, I used the above keys to type `git clone `, then used `Crtl+p` to paste what is on the clipboard which is `https://github.com/Lyka717/lab7.git`, and finally pressed `<enter>` to run the command in the terminal.
 
 ## `Step 6)`
 ![Image](L4_3.png)
