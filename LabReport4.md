@@ -33,4 +33,5 @@ Keys Pressed:
 * `g` `i` `t` `<space>` `a` `d` `d`  `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a`  `v` `a` `<enter>`
 * `g` `i` `t` `<space>` `c` `o` `m` `m` `i` `t` `<space>` `-` `m` `<space>` `"` `L` `i` `s` `t` `<space>` `C` `O` `M` `M`  `I` `T` `E` `D` `<enter>`
 * `g` `i` `t` `<space>` `p` `u` `s` `h` `<space>` `o` `r` `i` `g` `i` `n` `<space>` `m` `a` `i` `n` `<enter>` 
-9) 
+  - In the above, the first command I typed was `git add ListExamples.java`. `git add` adds the following changed file to the "staging area" where it is essentially used to load changed files for the next command `git commit` to update these changes to the project's history.
+  - The next command typed is `git commit -m "List Commited"`. The `git commit` command essentially saves the edited files in the staging area to the project's history. Then the following `-m` means message, meaning that the following string: `"List Commited"` is the message printed out if the `git commit` successfully runs.
