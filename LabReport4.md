@@ -14,7 +14,7 @@ Keys Pressed: (After going to github and copying the lab7 repository with ssh UR
 ## `Step 6)`
 ![Image](L4_3.png)
 Keys Pressed: `c` `d` `<space>` `l` `a` `b` `7` `<enter> ` `b` `a` `s` `h` `<space>` `t` `e` `s` `t` `.` `s` `h` `<enter>`
-  - 
+  - asd
 ## `Step 7)`
 ![Image](L4_4.png)
 Keys Pressed: `v` `i` `m` `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a` `v` `a` `<enter>`  `4` `4` `g` `g` `e` `r` `2` `<esc>` `:` `w` `q` `<enter>`
@@ -22,12 +22,12 @@ Keys Pressed: `v` `i` `m` `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` 
 
 ## `Step 8)`
 ![Image](L4_5.png)
-Keys Pressed: `<up>` `<up>` 
+Keys Pressed: `<up>` `<up>` `<enter>`
   - asd
 ## `Step 9)`
 ![Image](L4_6.png)
 Keys Pressed: 
-* `g` `i` `t` `<space>` `a` `d` `d` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a`  `v` `a` `<enter>`
+* `g` `i` `t` `<space>` `a` `d` `d`  `<space>` `L` `i` `s` `t` `E` `x` `a` `m` `p` `l` `e` `s` `.` `j` `a`  `v` `a` `<enter>`
 * `g` `i` `t` `<space>` `c` `o` `m` `m` `i` `t` `<space>` `-` `m` `<space>` `"` `L` `i` `s` `t` `<space>` `C` `O` `M` `M`  `I` `T` `E` `D` `<enter>`
 * `g` `i` `t` `<space>` `p` `u` `s` `h` `<space>` `o` `r` `i` `g` `i` `n` `<space>` `m` `a` `i` `n` `<enter>` 
 9) git add ListExamples.java ><enter> > git commit -m "List COMMITTED" > <enter> > git push origin main > <enter>
