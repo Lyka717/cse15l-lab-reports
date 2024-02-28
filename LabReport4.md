@@ -13,9 +13,8 @@ Keys Pressed: (After going to github and copying the lab7 repository with ssh UR
 
 ## `Step 6)`
 ![Image](L4_3.png)
-Keys Pressed: `<up><enter>`
-6) cd lab7 > bash test.sh > <enter>
-
+Keys Pressed: `c` `d` `<space>` `l` `a` `b` `7` `<enter> ` `b` `a` `s` `h` `<space>` `t` `e` `s` `t` `.` `s` `h` `<enter>`
+  - 
 ## `Step 7)`
 ![Image](L4_4.png)
 Keys Pressed: `<up><enter>`
