@@ -1,11 +1,14 @@
 # Lab Report 5
-By Angelica Cabusi (A17948600)\
+By ...........Angelica Cabusi (A17948600)\
 CSE15L Joseph Politz\
 March 10, 2024
 ## `Part 1 -Debugging Scenario)`
-aasdas
-asdasdas
-d
+**```LinkedList Help post#7679```**
+> Dhan Cerillo:\
+> Hi, I am having an issue with my code for lab3 but I swear my logic is right. Maybe I did my tester wrong or I need to assign ```root.next.next.prev``` to the new Node directly?
+
+INSERT IMAGE
+
 
 
 
