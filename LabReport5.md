@@ -31,9 +31,9 @@ March 10, 2024
 
 ---
 **File & directory structure:**\
-1) Lab3
-  a) sdasda
-    a) asdasd
+- asdasd
+  - asdasdadas
+    - asdasdasdad
 
 
 
