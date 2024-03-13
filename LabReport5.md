@@ -5,9 +5,8 @@ March 10, 2024
 ## `Part 1 -Debugging Scenario)`
 **```LinkedList Help post#7679```**
 > Dhan Cerillo:\
-> Hi, I am having an issue with my code for lab3 but I swear my logic is right. I think I did my tester wrong or I need to assign ```root.next.next.prev``` to the new Node directly? I think I am having more of an issue with the original first node of the list because my test for the new node's expected `.next` node passed fine.
-
-INSERT IMAGE
+> Hi, I am having an issue with my code for lab3 but I swear my logic is right. I think I did my tester wrong or I need to assign ```root.next.next.prev``` to the new Node directly? I think I am having more of an issue with the original first node of the list because my test for the new node's expected `.next` node passed fine.\
+![Image](L5_1.png)
 
 
 
