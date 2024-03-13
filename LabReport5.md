@@ -47,14 +47,6 @@ March 12, 2024
 - LinkedList.sh
   - ![Image](L5_9.png)
 
- **Files _After_ Bug Was Fixed:**
-- LinkedListExample.java
-  - ![Image](L5_10.png)
-- LinkedListTests.java 
-  - ![Image](L5_3.png)
-- LinkedList.sh
-  - ![Image](L5_9.png)
-
 **Command Lines to Trigger the Bug (located in bash file (LinkedList.sh)):**  (windows)
 - `javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java`
 - `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore LinkedListTests`
