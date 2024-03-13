@@ -3,10 +3,20 @@ By Angelica Cabusi (A17948600)\
 CSE15L Joseph Politz\
 March 10, 2024
 ## `Part 1 -Debugging Scenario)`
-**```LinkedList Help post#7679```**
-> Dhan Cerillo:\
+**```LinkedList Prepending Help post#7679```**
+> **Dhan Cerillo:**\
 > Hi, I am having an issue with my code for lab3 but I swear my logic is right. I think I did my tester wrong or I need to assign ```root.next.next.prev``` to the new Node directly? I think I am having more of an issue with the original first node of the list because my test for the new node's expected `.next` node passed fine.\
 ![Image](L5_2.png)
+
+> **TA (Anonymous):**\
+> Hi Dhan,\
+> I see you are having trouble with a part of this week's programming, could you please provide some snippets of your code so I can better understand your issue?\
+
+> **Dhan Cerillo:**\
+> Here is the code:
+> ![Image](L5_4.png)\
+> Here is the tester:
+> ![Image](L5_3.png)
 
 
 
