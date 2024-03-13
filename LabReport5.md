@@ -10,7 +10,7 @@ March 12, 2024
 
 > **TA (Anonymous):**\
 > Hi Dhan,\
-> I see you are having trouble with a part of this week's programming, could you please provide some snippets of your code so I can better understand your issue?\
+> I see you are having trouble with a part of this week's programming, could you please provide some snippets of your code so I can better understand your issue?
 
 > **Dhan Cerillo:**\
 > Here is the code:
