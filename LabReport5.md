@@ -55,6 +55,12 @@ March 12, 2024
 - LinkedList.sh
   - ![Image](L5_9.png)
 
+**Command Lines to Trigger the Bug (located in bash file (LinkedList.sh)):**  (windows)
+- javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
+- java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore LinkedListTests
+
+**What to Edit to Fix the Bug:**
+- In the prepend method, rearrange the ordering when connecting the new node in the `else` bracket. First, connect the new node's `next` value to the original first node (`this.root.next`) of the linked list. Then connect the the root's original first node's `prev` value to the newly added node. (It does not matter which of these two steps above are done first since it is not impacting `this.root.next`'s value yet).** Lastly,** assign the head(`root.next`) of the linked list to the newly added node.
 
 
 ## `Part 2 -Reflection)`
