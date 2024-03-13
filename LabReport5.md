@@ -16,10 +16,10 @@ March 10, 2024
 > Here is the code:
 > ![Image](L5_4.png)\
 > Here is the tester:
-> ![Image](L5_3.png)\
+> ![Image](L5_3.png)
 
 > **TA (Anonymous):**\
-> Perfect, I see the issue. 
+> Perfect, I see the issue. I believe it helps if you draw out the process of your prepend method. How do you keep track that you are referring to the original first node of the linked list? Are you connecting each node correctly/properly?
 
 
 
