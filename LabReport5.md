@@ -39,7 +39,7 @@ March 12, 2024
   - LinkedListTests.java
   - LinkedList.sh
 
-**Files Before Bug Was Fixed:**
+**Files _Before_ Bug Was Fixed:**
 - LinkedListExample.java
   - ![Image](L5_4.png)
 - LinkedListTests.java 
@@ -47,7 +47,7 @@ March 12, 2024
 - LinkedList.sh
   - ![Image](L5_9.png)
 
- **Files After Bug Was Fixed:**
+ **Files _After_ Bug Was Fixed:**
 - LinkedListExample.java
   - ![Image](L5_10.png)
 - LinkedListTests.java 
