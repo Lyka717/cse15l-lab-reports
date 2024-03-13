@@ -25,7 +25,7 @@ March 10, 2024
 > OHHH, I think I see the issue, my ordering was wrong when I'm assigning each node's `next` and `prev` nodes.
 >  ![Image](L5_5.png)\
 >  ![Image](L5_6.png)\
-> Thank you!!! So I accidentally referred to the newly added node instead of the original first node. Creating an actual temporary node to refer to the original first node helped a lot with understanding the order. With that, I tried another way without needing to create a temporary variable and it seems to work as well.
+> Thank you!!! So I accidentally was referring to the newly added node's `.prev` value when assigning it to the new node instead of the original first node, since I already assigned the `root.next` node of the list to the newly added node. Creating an actual temporary node to refer to the original first node helped a lot with understanding the order. With that, I tried another way without needing to create a temporary variable and it seems to work as well.
 > ![Image](L5_7.png)\
 > thank you!
 
