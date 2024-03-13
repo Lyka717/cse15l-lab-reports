@@ -29,6 +29,11 @@ March 10, 2024
 > ![Image](L5_7.png)\
 > thank you!
 
+---
+**File & directory structure:**\
+1) Lab3
+  a) sdasda
+    a) asdasd
 
 
 
