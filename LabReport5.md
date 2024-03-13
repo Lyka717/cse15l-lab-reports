@@ -47,6 +47,14 @@ March 12, 2024
 - LinkedList.sh
   - ![Image](L5_9.png)
 
+ **Files After Bug Was Fixed:**
+- LinkedListExample.java
+  - ![Image](L5_10.png)
+- LinkedListTests.java 
+  - ![Image](L5_3.png)
+- LinkedList.sh
+  - ![Image](L5_9.png)
+
 
 
 ## `Part 2 -Reflection)`
