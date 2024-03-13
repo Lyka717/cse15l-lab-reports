@@ -31,20 +31,20 @@ March 12, 2024
 
 ---
 **File & directory structure:**
-- lab3 (directory)
-  - lib (directory)
-    - hamcrest-core-1.3.jar
-    - junit-4.13.2.jar
-  - LinkedListExample.java
-  - LinkedListTests.java
-  - LinkedList.sh
+- `lab3` (directory)
+  - `lib` (directory)
+    - `hamcrest-core-1.3.jar`
+    - `junit-4.13.2.jar`
+  - `LinkedListExample.java`
+  - `LinkedListTests.java`
+  - `LinkedList.sh`
 
 **Files _Before_ Bug Was Fixed:**
-- LinkedListExample.java
+- `LinkedListExample.java`
   - ![Image](L5_4.png)
-- LinkedListTests.java 
+- `LinkedListTests.java` 
   - ![Image](L5_3.png)
-- LinkedList.sh
+- `LinkedList.sh`
   - ![Image](L5_9.png)
 
 **Command Lines to Trigger the Bug (located in bash file (LinkedList.sh)):**  (windows)
