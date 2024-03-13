@@ -1,7 +1,7 @@
 # Lab Report 5
 By Angelica Cabusi (A17948600)\
 CSE15L Joseph Politz\
-March 10, 2024
+March 12, 2024
 ## `Part 1 -Debugging Scenario)`
 **```LinkedList Prepending Help post#7679```**
 > **Dhan Cerillo:**\
@@ -30,7 +30,7 @@ March 10, 2024
 > thank you!
 
 ---
-**File & directory structure:**\
+**File & directory structure:**
 - lab3 (directory)
   - lib (directory)
     - hamcrest-core-1.3.jar
@@ -38,6 +38,14 @@ March 10, 2024
   - LinkedListExample.java
   - LinkedListTests.java
   - LinkedList.sh
+
+**Files Before Bug Was Fixed:**
+- LinkedListExample.java
+  - ![Image](L5_4.png)
+- LinkedListTests.java 
+  - ![Image](L5_3.png)
+- LinkedList.sh
+  - ![Image](L5_9.png)
 
 
 
