@@ -16,7 +16,10 @@ March 10, 2024
 > Here is the code:
 > ![Image](L5_4.png)\
 > Here is the tester:
-> ![Image](L5_3.png)
+> ![Image](L5_3.png)\
+
+> **TA (Anonymous):**\
+> Perfect, I see the issue. 
 
 
 
