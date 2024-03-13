@@ -31,9 +31,13 @@ March 10, 2024
 
 ---
 **File & directory structure:**\
-- asdasd
-  - asdasdadas
-    - asdasdasdad
+- lab3 (directory)
+  - lib (directory)
+    - hamcrest-core-1.3.jar
+    - junit-4.13.2.jar
+  - LinkedListExample.java
+  - LinkedListTests.java
+  - LinkedList.sh
 
 
 
