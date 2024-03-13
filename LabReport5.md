@@ -21,6 +21,14 @@ March 10, 2024
 > **TA (Anonymous):**\
 > Perfect, I see the issue. I believe it helps if you draw out the process of your prepend method. How do you keep track that you are referring to the original first node of the linked list? Are you connecting each node correctly/properly?
 
+> **Dhan Cerillo:**\
+> OHHH, I think I see the issue, my ordering was wrong when I'm assigning each node's `next` and `prev` nodes.
+>  ![Image](L5_5.png)\
+>  ![Image](L5_6.png)\
+> Thank you!!! So I accidentally referred to the newly added node instead of the original first node. Creating an actual temporary node to refer to the original first node helped a lot with understanding the order. With that, I tried another way without needing to create a temporary variable and it seems to work as well.
+> ![Image](L5_7.png)\
+> thank you!
+
 
 
 
